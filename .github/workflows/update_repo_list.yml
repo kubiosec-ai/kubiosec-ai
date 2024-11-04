@@ -12,7 +12,7 @@ jobs:
       
     - name: Fetch Repositories and Create Markdown List
       run: |
-        git config --global user.name 'xxradar'
+        git config --global user.name 'kubiosec-ai'
         git config --global user.email 'xxradar@radarhack.com'
         # Set the starting page number
         page=1
