@@ -39,9 +39,10 @@ jobs:
           # Increment the page number
           page=$((page + 1))
         done
+        echo $repos
 
         # Create or clear the file
-        > list.md
+        touch list.md
 
         # Add repository list to the file
         for i in "${repos[@]}"
