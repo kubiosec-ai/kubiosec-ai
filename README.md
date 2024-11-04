@@ -1,5 +1,4 @@
-### Welcome to my github repo. A place where I store and document my research in cloud and kubernetes.
-
+### Welcome to my github repo. A place where I store and document my research in GenAI, AI and Machine Learning
 Check me out here on: <br>
 - [https://kubiosec.tech](https://kubiosec.tech)
 - [https://xxradar.medium.com](https://xxradar.medium.com)
