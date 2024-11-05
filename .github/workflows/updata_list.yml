@@ -49,7 +49,7 @@ jobs:
         touch list.md
 
         # Add repository list to the file
-        for i in "${repos[@]}"
+        for i in "${page_repos[@]}"
         do
           echo "- [https://github.com/${i}](https://github.com/${i})" >> list.md
         done
