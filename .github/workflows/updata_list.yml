@@ -39,8 +39,11 @@ jobs:
           # Increment the page number
           page=$((page + 1))
         done
-        
-        echo $repos
+
+        echo ------------------------------------------------------
+        echo $page_repos
+        echo ------------------------------------------------------
+
 
         # Create or clear the file
         touch list.md
