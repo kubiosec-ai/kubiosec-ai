@@ -55,10 +55,7 @@ jobs:
         done
 
         # Check if there are changes
-        if ! git diff --quiet; then
-          git add list.md
-          git commit -m "Update repository list"
-          git push
-        else
-          echo "No changes in repository list"
-        fi
+        git add list.md
+        git commit -m "Update repository list"
+        git push
+
