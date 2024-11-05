@@ -40,12 +40,13 @@ jobs:
           page=$((page + 1))
         done
 
-        echo ------------------------------------------------------
-        echo $page_repos
-        echo ------------------------------------------------------
+        # echo ------------------------------------------------------
+        # echo $page_repos
+        # echo ------------------------------------------------------
 
 
-    
+        echo "## List of repo's <br> " >list.md
+        
         # Add repository list to the file
         for i in "${repos[@]}"
         do
