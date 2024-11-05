@@ -45,15 +45,13 @@ jobs:
         echo ------------------------------------------------------
 
 
-        # Create or clear the file
-        touch list.md
-
+    
         # Add repository list to the file
         for i in "${page_repos[@]}"
         do
           echo "- [https://github.com/${i}](https://github.com/${i})" >> list.md
         done
-
+        export GH_TOKEN=${{ secrets.GH_TOKEN }}
         # Check if there are changes
         git add list.md
         git commit -m "Update repository list"
